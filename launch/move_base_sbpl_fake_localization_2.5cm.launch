@@ -1,0 +1,9 @@
+<launch>
+  <master auto="start"/>
+  
+
+  <include file="$(find sbpl_lattice_planner)/launch/move_base/move_base_sbpl.xml"/>
+
+  
+ 
+</launch>

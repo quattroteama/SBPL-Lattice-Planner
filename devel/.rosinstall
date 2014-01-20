@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fahad/catkin_ws/devel/navigation_experimental-groovy-devel/sbpl_lattice_planner/devel/setup.sh

@@ -1,0 +1,11 @@
+<launch>
+  <master auto="start"/>
+  
+
+  <include file="$(find sbpl_lattice_planner)/launch/move_base/move_base_sbpl.xml"/>
+
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find sbpl_lattice_planner)/worlds/map.pgm 0.025" />
+
+ 
+ 
+</launch>
