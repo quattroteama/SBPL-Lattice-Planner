@@ -4,4 +4,4 @@ SBPLLatticePlanner:
   allocated_time: 5.0
   initial_epsilon: 3.0
   forward_search: false
-  lethal_obstacle: 20
+  lethal_obstacle: 30
