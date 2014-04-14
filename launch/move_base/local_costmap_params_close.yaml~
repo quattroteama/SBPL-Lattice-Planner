@@ -7,7 +7,11 @@ local_costmap:
   rolling_window: true
   width: 3.0
   height: 3.0
+<<<<<<< HEAD
   resolution: 0.05
+=======
+  resolution: 0.022
+>>>>>>> 442f59a62380313b7555b07ccb03676f810c5d98
   origin_x: 0.0
   origin_y: 0.0
 

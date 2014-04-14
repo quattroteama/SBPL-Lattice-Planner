@@ -3,8 +3,13 @@
   <node ns="local_costmap" name="voxel_grid_throttle" pkg="topic_tools" type="throttle" args="messages voxel_grid 3.0 voxel_grid_throttled" />
   <node pkg="move_base" type="move_base" respawn="false" name="move_base_node" output="screen">
     <param name="footprint_padding" value="0.01" />
+<<<<<<< HEAD
     <param name="controller_frequency" value="0.2" />
     <!--<param name="planner_frequency" value="0.1" />-->
+=======
+    <param name="controller_frequency" value="5.0" />
+    <param name="planner_frequency" value="0.1" />
+>>>>>>> 442f59a62380313b7555b07ccb03676f810c5d98
     <param name="controller_patience" value="100.0" />
     <param name="base_global_planner" value="SBPLLatticePlanner" />
     <!--<param name="base_local_planner" value="pose_follower/PoseFollower" />-->

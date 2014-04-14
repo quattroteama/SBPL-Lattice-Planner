@@ -5,7 +5,11 @@ max_obstacle_height: 2.0
 raytrace_range: 3.0
 #footprint: [[-0.2, -0.15], [-0.2, 0.15], [0.2, 0.15], [0.2, -0.15]]
 footprint: [[-0.25, -0.2], [-0.25, 0.2], [0.25, 0.2], [0.25, -0.2]]
+<<<<<<< HEAD
 #robot_radius: 0.46
+=======
+robot_radius: 0.46
+>>>>>>> 442f59a62380313b7555b07ccb03676f810c5d98
 footprint_padding: 0.01
 #inflation_radius: 0.55
 inflation_radius: 0.5
